@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <title>Membuat tampilan responsive Landing Page dan Blog.</title>
+
+    </head>
+    <body>
+      <!--- navbar --->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100" style="z-index: 2;">
+            <div class="container">
+              <a class="logo" href="#">
+                team<span>.</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-4">
+                    <a href="#">Product</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a href="#">Blog</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a href="#">Support</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a href="#">Login</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="active" aria-current="page" href="#">Get Access</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      
+      <!-- Hero Section -->
+          <section class="hero">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-6 hero-tagline my-auto">
+                  <h1>Instant collaboration for remote teams</h1>
+                  <p>All-in-one place for your remote team to 
+                  chat, collaborate and track project progress.</p>
+                  <i class="bi bi-arrow-right"></i>
+                  <input type="email" placeholder="E-mail" name="email">
+	                <button class="button-lg-primary mx-1">Get Early Access</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="bagian1">
+            <div class="bagian1-text">
+              <h3>Chats for your distributed teams</h3>
+              <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
+              <a href="#" class="card-link">Learn More
+              <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+            <div class="bagian1-gambar">
+              <img src="img/mockup.png">
+            </div>
+          </section>
+
+          <section class="bagian2">
+            <div class="bagian2-gambar">
+              <img class="calendar w-25" src="img/Calender.png">
+              <img src="img/img-group.png">
+            </div>
+            <div class="bagian2-text">
+              <h3>Chats for your distributed teams</h3>
+              <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
+              <a href="#" class="card-link">Learn More
+              <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </section>
+
+          <section class="bagian3">
+            <div class="bagian3-text">
+              <h3>Chats for your distributed teams</h3>
+              <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
+              <a href="#" class="card-link">Learn More
+              <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+            <div class="bagian3-gambar">
+              <img class="img1" src="img/image.png" style="width: 18%;">
+              <img class="img2" src="img/image1.png" style="width: 18%;">
+              <img src="img/img-group1.png">
+            </div>
+          </section>
+
+          <section class="bagian4">
+            <div class="bagian4-gambar">
+              <img class="img3 w-20" src="img/image2.png" style="width: 18%;">
+              <img class="img4 w-20" src="img/image3.png" style="width: 18%;">
+              <img src="img/img-group2.png">
+            </div>
+            <div class="bagian4-text">
+              <h3>Chats for your distributed teams</h3>
+              <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
+              <a href="#" class="card-link">Learn More
+              <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </section>
+
+          <section id="carousel">
+            <div class="containerr">
+              <h2>
+                What people say about Team
+              </h2>
+              <div class="slide-container">
+                <div class="slide-content swiper">
+                  <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                       </div>
+                       <span class="overlay">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</span>
+                      <div class="profile">
+                        <div class="card-image">
+                          <img src="img/profil1.png" alt="" class="imgg">
+                        </div>
+                        <div class="name-user">
+                          <h5>Chelsea Morgan</h5>
+                          <p>CEO of Subway</p>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                       </div>
+                       <span class="overlay">In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis.</span>
+                      <div class="profile">
+                        <div class="card-image">
+                          <img src="img/profil2.png" alt="" class="img">
+                        </div>
+                        <div class="name-user">
+                          <h5>Nick Cave</h5>
+                          <p>CEO of Nokia</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  
+
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                       </div>
+                       <span class="overlay">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo.</span>
+                       <div class="profile">
+                        <div class="card-image">
+                          <img src="img/profil3.png" alt="" class="img">
+                        </div>
+                        <div class="name-user">
+                          <h5>Lana Rosenfeld</h5>
+                          <p>Senior VP at Pinterest</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                       </div>
+                       <span class="overlay">Porta nisl dolor, molestie pellentesque elit molestie in. Morbi metus neque, elementum ullamcorper hendrerit eget, tincidunt et nisi. Sed magna nunc.</span>
+                       <div class="profile">
+                        <div class="card-image">
+                          <img src="img/profil4.png" alt="" class="img">
+                        </div>
+                        <div class="name-user">
+                          <h5>Giorgio Moroder</h5>
+                          <p>CTO of Glovo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                       </div>
+                       <span class="overlay">Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis. In a laoreet purus.</span>
+                       <div class="profile">
+                        <div class="card-image">
+                          <img src="img/profil5.png" alt="" class="img">
+                        </div>
+                        <div class="name-user">
+                          <h5>Young Liu</h5>
+                          <p>CAO of Foxconn</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="footer">
+            <div class="footer-content">
+              <h1>team<span>.</span></h1>
+              <p>Collaboration platform<br>for mordern team </p>
+            </div>
+
+            <div class="footer-content">
+              <h4>Company</h4>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </div>
+
+            <div class="footer-content">
+              <h4>Features</h4>
+              <li><a href="#">Screen Sharing</a></li>
+              <li><a href="#">iOS & Android Apps</a></li>
+              <li><a href="#">File Sharing</a></li>
+              <li><a href="#">User Management</a></li>
+            </div>
+
+            <div class="footer-content">
+              <h4>Contact Us</h4>
+              <li><a href="mailto:info@teamapp.com">info@teamapp.com</a></li>
+              <li><a href="tel:1-800-200-300">1-800-200-300</a></li>
+              <li><a>1010 Sunset Blv.<br>Palo Alto, California</a></li>
+            </div>
+
+            <div class="footer-content">
+              <h4>Stay Up To Date</h4>
+              <p>Subscribe to our newseller</p>
+              <input type="email" placeholder="E-mail" class="emaill">
+	            <button class="button"><i class="bi bi-arrow-right"></i></button>
+            </div>
+          </section>
+          <div class="credit">@ Copyright Team Inc.</div> 
+              
+    </body>
+    
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
+          

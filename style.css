@@ -1,0 +1,906 @@
+*{
+    font-family: 'Lexend Deca';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo span{
+    font-size: 52px;
+    color: #5468e7;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.navbar-nav a{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.navbar-nav a:hover{
+    color: #5468e7;
+}
+
+.nav-color{
+    background-color: #232340;
+    transition: all ease-in-out 0.5s;
+}
+
+.bg-trasparent{
+    transition: all ease-in 0.5s;
+}
+
+.active{
+    background-color:rgba(84, 104, 231, 0.5);
+    color: white;
+    padding: 10px 44px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hero{
+    background-image: url(img/Hero.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 118vh;
+    justify-content: flex-start;
+}
+
+.hero-tagline{
+    margin-left: 20px;
+}
+
+.hero-tagline h1{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.hero-tagline p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+div input{
+    width: 220px;
+    padding: 11px 16px;
+}
+div .row i{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 15px;
+    color: #5468e7;
+}
+.button-lg-primary{
+    width: 233px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #5468e7;
+    border-radius: 4px;
+    gap: 8px;
+    transition: all .50s ease;
+    cursor: pointer;
+}
+
+.button-lg-primary:hover{
+    transform: rotateX('10px');
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all .50s ease;
+    cursor: pointer;
+}
+
+.bagian1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 75px 50px 20px 100px;
+}
+
+.bagian1-gambar img{
+    width: 100%;
+    height: auto;
+}
+.bagian1-text{
+    margin-right: 100px;
+}
+.bagian1-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;   
+}
+
+.bagian1-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bagian2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 50px 100px 50px 100px;
+}
+
+.bagian2-gambar img{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.bagian2-text{
+    margin-left: 100px;
+}
+.bagian2-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.bagian2-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bagian3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 50px 100px 50px 100px;
+}
+
+.bagian3-gambar img{
+    width: 100%;
+    height: auto;
+}
+.bagian3-text{
+    margin-right: 100px;
+}
+.bagian3-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    
+}
+
+.bagian3-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.bagian4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 50px 100px 80px 100px;
+}
+
+.bagian4-gambar img{
+    width: 100%;
+    height: auto;
+}
+.bagian4-text{
+    margin-left: 100px;
+}
+.bagian4-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.bagian4-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+div h2{
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 50px;
+}
+
+.slide-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.card-image imgg{
+    width: 100%;
+    height: 100vh;
+    object-position: center;
+    object-fit: cover;
+}
+.stars i{
+    color: #FFBA79;
+}
+
+div .card{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.image-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+}
+.overlay{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.name-user h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name-user p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5468e7;
+    line-height: normal;
+}
+
+div .swiper-button-next{
+    color: grey;
+    right: calc(50% - 40px);
+    top: unset !important;
+    bottom: -80px;
+    position: absolute;
+}
+
+div .swiper-button-prev{
+    color: grey;
+    left: calc(50% - 40px);
+    top: unset !important;
+    bottom: -80px;
+    position: absolute;
+}
+.containerr{
+    margin-bottom: 10%;
+}
+.footer{
+    background-color: #232340;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    padding: 50px 100px;
+   
+}
+.footer-content{
+    color: white;
+    list-style: none;
+}
+
+.footer-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.footer-content span{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #5468e7;
+}
+
+.footer-content h4{
+    color: #5468e7;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    line-height: 100%;
+}
+
+.footer-content li{
+    line-height: 40px;
+}
+
+.credit{
+    color: white;
+    background-color: #232340;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-content button{
+    padding: 11px 5px;
+    position: absolute;
+    border: none;
+    background-color:rgba(223, 226, 239, 0.5);
+    color: white;
+}
+
+.footer-content input{
+    background-color:rgba(223, 226, 239, 0.5);
+    border: none;
+    border-radius: 1px;
+}
+.emaill::-webkit-input-placeholder{
+	color: white;
+}
+
+.calendar{
+    z-index: 2;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.img1{
+    z-index: 1;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 2%;
+}
+.img2{
+    z-index: 1;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 11%;
+}
+
+.img3{
+    z-index: 1;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 14%;
+}
+
+.img4{
+    z-index: 1;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 32%;
+}
+
+
+@media (max-width: 1200px) {
+    .hero{
+        padding: 14px 5%;
+    }
+    .hero.sticky{
+        padding: 7px 5%;
+    }
+    section{
+        padding: 45px 5% 35px;
+    }
+    :root{
+        --h1-font: 4.6rem;
+        --p-font: 15px;
+    }
+    div input{
+        width: 200px;
+        padding: 11px 16px;
+    }
+    div .row i{
+        margin-left: 170px;
+    }
+    .button-lg-primary{
+        width: 200px;
+        padding: 10px 20px;
+    }
+    .button-lg-primary:hover{
+        transform: rotateX('10px');
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        transition: all .50s ease;
+        cursor: pointer;
+    }
+    .bagian2-text{
+        margin-left: 50px;
+    }
+    .bagian2-text h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bagian2-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bagian4-text{
+        margin-left: 50px;
+    }
+    .bagian4-text h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bagian4-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bagian1-text{
+        margin-right: 50px;  
+    }
+    .bagian1-text h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bagian1-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bagian3-text {
+        margin-right: 50px;  
+    }
+    .bagian3-text h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bagian3-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .navbar-nav{
+        width: 100%;
+        height: 20%;
+        padding: 10px 10px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #232340;
+        transition: all .50s ease;
+    }
+    .navbar-nav a{
+        color: white;
+        padding: 0;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+    .hero-tagline{
+        margin-left: 0;
+    }
+    
+    .hero-tagline h1{
+        font-size: 40px;
+        line-height: 54px;
+    }
+    
+    .hero-tagline p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    div input{
+        width: 160px;
+    }
+    div .row i{
+        margin-left: 130px;
+    }
+    .button-lg-primary{
+        width: 160px;
+        padding: 12px 10px;
+        font-size: 15px;
+        line-height: 150%;
+        gap: 2px;
+    }
+    .bagian2-text{
+        margin-left: 40px;
+    }
+    .bagian2-text h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .bagian2-text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .bagian4-text{
+        margin-left: 40px;
+    }
+    .bagian4-text h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .bagian4-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .bagian1-text {
+        margin-right: 40px;  
+    }
+    .bagian1-text h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .bagian1-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .bagian3-text{
+        margin-right: 40px;  
+    }
+    .bagian3-text h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .bagian3-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .calendar{
+        padding-right: 3%;
+    }
+    .img1{
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    .img2{
+        margin-left: 20%;
+        margin-top: 11%;
+    }
+    
+    .img3{
+        margin-top: 11%;
+    }
+    
+    .img4{
+        margin-top: 29%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .bagian2{
+        padding: 50px;
+    }
+    .bagian2-text{
+        margin-left: 20px;
+    }
+    .bagian2-text h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .bagian2-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .bagian4{
+        padding: 50px;
+    }
+    .bagian4-text{
+        margin-left: 20px;
+    }
+    .bagian4-text h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .bagian4-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .bagian1{
+        padding: 50px;
+    }
+    .bagian1-text {
+        margin-right: 30px; 
+    }
+    .bagian1-text h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .bagian1-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .bagian3{
+        padding: 50px;
+    }
+    .bagian3-text{
+        margin-right: 30px;  
+    }
+    .bagian3-text h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .bagian3-text p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .footer-content{
+        margin-bottom: 10%;
+    }
+    
+}
+@media (max-width: 569px) {
+
+    .navbar-nav{
+        height: 20%;
+    }
+    .logo{
+        margin-left: 25px;
+    }
+    
+    .bagian2-text{
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+    }
+    .bagian2-text h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bagian2-text p{
+        font-size: 12px;
+        line-height: 15px;
+    } 
+    .bagian2-text a{
+        font-size: 10px;
+    } 
+    .bagian4-text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .bagian4-text h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bagian4-text p{
+        font-size: 12px;
+        line-height: 15px;
+    } 
+    .bagian4-text a{
+        font-size: 10px;
+    } 
+    .bagian1{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 65%;
+        grid-template-areas: "gambar"
+                             "text";
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .bagian1-gambar img{
+        grid-area: gambar;
+    }
+
+    .bagian1-text {
+        margin-right: 0;
+        grid-area: text;
+        align-items: center;
+    }
+    
+    .bagian1-text h3{
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .bagian1-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bagian3-text{
+        margin-right: 30px;  
+    }
+    .bagian3-text h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bagian3-text p{
+        font-size: 12px;
+        line-height: 15px;
+    } 
+    .bagian3-text a{
+        font-size: 10px;
+    }
+
+    .calendar{
+        padding-right: 2%;
+    }
+    .img1{
+        padding-right: 2%;
+    }
+    .img2{
+        padding-right: 2%;
+    }
+    .slide-container{
+        bottom: 30px;
+    }
+    .footer{
+        padding: 40px 40px;
+    }
+    .credit{
+        padding-left: 40px;
+    }
+
+}
+@media (max-width: 321px) {
+    .hero-tagline{
+        margin-left: 10px;
+    }
+    
+    .hero-tagline h1{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    div input{
+        width: 190px;
+        padding: 11px 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    div .row i{
+        margin-left: 170px;
+        margin-top: 10px;
+        
+    }
+
+    div h2{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .button-lg-primary{
+        width: 190px;
+        padding: 11px 5px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .bagian2{
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bagian2-text{
+        margin-right: 0;
+        align-items: center;
+    } 
+    .bagian4{
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bagian4-text{
+        margin-right: 0;
+        align-items: center;
+    }
+    
+    .bagian1{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+        grid-template-areas: "gambar"
+                             "text";
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .bagian1-gambar img{
+        grid-area: gambar;
+        padding-top: 50px;
+    }
+
+    .bagian1-text {
+        margin-right: 0;
+        grid-area: text;
+        align-items: center;
+    }
+    
+    .bagian1-text h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bagian1-text p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .bagian1-text a{
+        font-size: 10px;
+    }
+    .bagian3{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+        grid-template-areas: "gambar"
+                             "text";
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bagian3-gambar img{
+        grid-area: gambar;
+    }
+    .bagian3-text{
+        margin-right: 0;
+        grid-area: text;  
+    } 
+    .slide-container{
+        bottom: 50px;
+    }
+
+    .containerr h2{
+        padding: 0 10% 10% 10%;
+    }
+    .calendar{
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+    .img1{
+        margin-left: 50%;
+        margin-top: 2%;
+    }
+    .img2{
+        margin-left: 50%;
+        margin-top: 11%;
+    }
+    
+    .img3{
+        margin-left: 2%;
+        margin-top: 35%;
+    }
+    
+    .img4{
+        margin-left: 2%;
+        margin-top: 55%;
+    }
+}
+
